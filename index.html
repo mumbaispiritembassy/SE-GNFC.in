@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>The GoodNews Church | Spirit Embassy India </title>
+    <meta name="description" content="[META_DESCRIPTION]" />
+    <meta
+      property="og:title"
+      content="The GoodNews Church | Spirit Embassy India"
+    />
+    <meta property="og:description" content="[META_DESCRIPTION]" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Church",
+        "name": "The GoodNews Church | Spirit Embassy India"
+      }
+    </script>
+  </head>
+  <body data-page="home">
+    <div class="loader">
+      <div class="loader-inner">
+        <div class="loader-mark">GN</div>
+        <p>Good News Church, Spirit Embassy India</p>
+      </div>
+    </div>
+    <div data-site-header></div>
+    <main>
+      <section class="hero">
+        <div class="hero-media">
+          <div
+            class="hero-slide is-active"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1507692049790-de58290a4334?auto=format&fit=crop&w=2200&q=88&quot;);
+            "
+          ></div>
+          <div
+            class="hero-slide"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=2200&q=88&quot;);
+            "
+          ></div>
+          <div
+            class="hero-slide"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=2200&q=88&quot;);
+            "
+          ></div>
+        </div>
+        <div class="container hero-content">
+          <span class="eyebrow">Good news for Mumbai</span>
+          <h1>A living faith.<br />A wider welcome.</h1>
+          <p class="hero-intro">
+            Good News Church, Spirit Embassy Mumbai is a place to encounter God,
+            find community and carry hope into the city.
+          </p>
+          <div class="hero-actions">
+            <a class="button button--accent" href="about.html"
+              >Discover our story <span>↗</span></a
+            ><a class="button button--ghost" href="prayer-request.html"
+              >Request prayer</a
+            >
+          </div>
+        </div>
+        <div class="slide-control">
+          <button type="button" data-slide="prev" aria-label="Previous image">
+            ←</button
+          ><span class="slide-count"
+            ><span data-slide-current>01</span> / 03</span
+          ><button type="button" data-slide="next" aria-label="Next image">
+            →
+          </button>
+        </div>
+      </section>
+      <section class="section section--white reveal">
+        <div class="container mission-grid">
+          <div class="mission-copy">
+            <span class="eyebrow">Our mission</span>
+            <h2>Make room for the good news.</h2>
+            <p>[MISSION_CONTENT]</p>
+            <a class="button button--dark" href="about.html"
+              >More about us <span>↗</span></a
+            >
+          </div>
+          <div class="image-frame mission-image">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1504052434569-70ad5836ab65?auto=format&fit=crop&w=1200&q=85"
+              alt="Open Bible and warm light in a quiet space"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section reveal">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">Make plans</span>
+              <h2>Upcoming events</h2>
+            </div>
+            <p>
+              Gather with us in Mumbai and with the wider GoodNews World family.
+            </p>
+          </div>
+          <div class="events-grid" data-events-preview></div>
+          <div style="margin-top: 32px">
+            <a class="button button--line" href="events.html"
+              >View all events <span>→</span></a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="band">
+        <div class="container band-inner">
+          <div>
+            <span class="eyebrow">Stay connected</span>
+            <p style="margin-top: 12px">
+              Follow the life of the church across our official channels.
+            </p>
+          </div>
+          <a class="button button--accent" href="socials.html"
+            >Explore socials <span>↗</span></a
+          >
+        </div>
+      </section>
+    </main>
+    <div data-site-footer></div>
+    <script src="js/main.js"></script>
+    <script src="js/events.js"></script>
+    <script>
+      const slides = [...document.querySelectorAll(".hero-slide")];
+      let active = 0;
+      const setSlide = (n) => {
+        active = (n + slides.length) % slides.length;
+        slides.forEach((slide, index) =>
+          slide.classList.toggle("is-active", index === active),
+        );
+        document.querySelector("[data-slide-current]").textContent = String(
+          active + 1,
+        ).padStart(2, "0");
+      };
+      document.querySelector('[data-slide="prev"]').onclick = () =>
+        setSlide(active - 1);
+      document.querySelector('[data-slide="next"]').onclick = () =>
+        setSlide(active + 1);
+      setInterval(() => setSlide(active + 1), 7000);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Give | Good News Church, Spirit Embassy Mumbai</title>
+    <meta
+      name="description"
+      content="Give to the work of Good News Church, Spirit Embassy Mumbai."
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="give">
+    <div class="loader">
+      <div class="loader-inner">
+        <div class="loader-mark">GN</div>
+        <p>Good News Church, Mumbai</p>
+      </div>
+    </div>
+    <div data-site-header></div>
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <span class="eyebrow">A generous life</span>
+          <h1>Give</h1>
+          <p>
+            Giving is an act of worship and a practical way to make room for the
+            good news.
+          </p>
+        </div>
+      </section>
+      <section class="section section--white">
+        <div class="container form-layout">
+          <div class="form-intro">
+            <span class="eyebrow">Choose a category</span>
+            <h2>Give with intention.</h2>
+            <p>
+              Your gift can support the work of the church through one of these
+              categories. [GIVING_INFORMATION]
+            </p>
+            <div
+              style="
+                margin-top: 28px;
+                display: grid;
+                gap: 12px;
+                color: var(--ink-soft);
+                font-size: 0.9rem;
+              "
+            >
+              <span
+                ><strong style="color: var(--ink)">Seed</strong> ·
+                [SEED_DESCRIPTION]</span
+              ><span
+                ><strong style="color: var(--ink)">Tithe</strong> ·
+                [TITHE_DESCRIPTION]</span
+              ><span
+                ><strong style="color: var(--ink)">Offering</strong> ·
+                [OFFERING_DESCRIPTION]</span
+              ><span
+                ><strong style="color: var(--ink)">Branch Partnership</strong> ·
+                [PARTNERSHIP_DESCRIPTION]</span
+              >
+            </div>
+          </div>
+          <form class="form" data-form-type="giving" novalidate>
+            <div class="form-grid">
+              <div class="field">
+                <label for="giving-name">Full name *</label
+                ><input
+                  id="giving-name"
+                  name="fullName"
+                  required
+                  autocomplete="name"
+                /><small></small>
+              </div>
+              <div class="field">
+                <label for="giving-email">Email *</label
+                ><input
+                  id="giving-email"
+                  type="email"
+                  name="email"
+                  required
+                  autocomplete="email"
+                /><small></small>
+              </div>
+              <div class="field">
+                <label for="giving-phone">Phone number</label
+                ><input
+                  id="giving-phone"
+                  name="phone"
+                  autocomplete="tel"
+                /><small></small>
+              </div>
+              <div class="field">
+                <label for="giving-category">Giving category *</label
+                ><select id="giving-category" name="givingCategory" required>
+                  <option value="">Select a category</option>
+                  <option>Seed</option>
+                  <option>Tithe</option>
+                  <option>Offering</option>
+                  <option>Branch Partnership</option></select
+                ><small></small>
+              </div>
+              <div class="field">
+                <label for="giving-amount">Amount *</label
+                ><input
+                  id="giving-amount"
+                  name="amount"
+                  inputmode="decimal"
+                  required
+                  placeholder="[CURRENCY] [AMOUNT]"
+                /><small></small>
+              </div>
+              <div class="field field--full">
+                <label for="giving-message">Optional message</label
+                ><textarea id="giving-message" name="message"></textarea
+                ><small></small>
+              </div>
+            </div>
+            <button class="button button--dark" type="submit">
+              Continue <span>→</span>
+            </button>
+            <p
+              data-form-status
+              role="status"
+              style="margin-top: 16px; color: #a83e32; font-size: 0.82rem"
+            ></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <div data-site-footer></div>
+    <div class="modal" data-modal aria-hidden="true">
+      <div
+        class="modal-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="giving-modal-title"
+      >
+        <button class="modal-close" data-modal-close aria-label="Close">
+          ×</button
+        ><span class="eyebrow">Thank you</span>
+        <h2 id="giving-modal-title" style="margin-top: 22px; font-size: 2.3rem">
+          Thank you for giving.
+        </h2>
+        <p>For any questions, please contact us on WhatsApp.</p>
+        <a
+          class="button button--accent"
+          href="[GIVING_WHATSAPP_URL]"
+          target="_blank"
+          rel="noopener"
+          >Contact us on WhatsApp ↗</a
+        >
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/forms.js"></script>
+  </body>
+</html>

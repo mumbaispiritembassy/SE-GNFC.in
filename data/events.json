@@ -1,0 +1,32 @@
+[
+  {
+    "title": "[EVENT_TITLE_01]",
+    "category": "GNW Events",
+    "date": "[EVENT_DATE_01]",
+    "time": "[EVENT_TIME_01]",
+    "location": "[EVENT_LOCATION_01]",
+    "description": "[EVENT_DESCRIPTION_01]",
+    "image": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1200&q=85",
+    "link": "#"
+  },
+  {
+    "title": "[EVENT_TITLE_02]",
+    "category": "Mumbai / India",
+    "date": "[EVENT_DATE_02]",
+    "time": "[EVENT_TIME_02]",
+    "location": "[EVENT_LOCATION_02]",
+    "description": "[EVENT_DESCRIPTION_02]",
+    "image": "https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=1200&q=85",
+    "link": "#"
+  },
+  {
+    "title": "[EVENT_TITLE_03]",
+    "category": "Mumbai / India",
+    "date": "[EVENT_DATE_03]",
+    "time": "[EVENT_TIME_03]",
+    "location": "[EVENT_LOCATION_03]",
+    "description": "[EVENT_DESCRIPTION_03]",
+    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=85",
+    "link": "#"
+  }
+]

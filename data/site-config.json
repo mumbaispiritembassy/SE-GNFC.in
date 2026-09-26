@@ -1,0 +1,36 @@
+{
+  "siteName": "GOOD NEWS CHURCH | SPIRIT EMBASSY INDIA",
+  "shortName": "Good News Church, Spirit Embassy India",
+  "contact": {
+    "address": "[CHURCH ADDRESS]",
+    "phone": "[PHONE NUMBER]",
+    "email": "[EMAIL ADDRESS]"
+  },
+  "endpoints": {
+    "prayerRequest": "[PRAYER_REQUEST_ENDPOINT]",
+    "giving": "[GIVING_ENDPOINT]"
+  },
+  "externalLinks": {
+    "goodNewsDaily": "https://goodnewsdailydevotional.com/",
+    "goodNewsResources": "[GOODNEWS_RESOURCES_URL]",
+    "healingInstitute": "[HEALING_INSTITUTE_URL]",
+    "prophecyBooks": "https://uebertangel.org/books/",
+    "becomePartner": "https://uebertangel.org/partner/",
+    "merchandise": "[MERCHANDISE_URL]",
+    "whatsapp": "https://wa.link/qfb3vo",
+    "prayerWhatsApp": "[MUMBAI_WHATSAPP_COMMUNITY_URL]",
+    "givingWhatsApp": "[GIVING_WHATSAPP_URL]"
+  },
+  "socials": {
+    "goodNewsWorld": "https://www.instagram.com/thegoodnewsworldofficial/",
+    "founder": "https://www.instagram.com/uebertangel/",
+    "president": "https://www.instagram.com/beverlyuangel/",
+    "prophetLive": "https://www.youtube.com/@UebertAngelGNW",
+    "goodNewsMusic": "https://www.youtube.com/@GoodNewsMusic",
+    "india": "https://www.instagram.com/spiritembassyindiatgnc/",
+    "mumbai": "https://www.instagram.com/spiritembassymumbaitgnc/",
+    "chaplain": "https://www.instagram.com/ashumadnawat/",
+    "minister": "https://www.instagram.com/suvartamadnawat/",
+    "spiritEmbassyIndiaYoutube": "https://www.youtube.com/channel/UCTGZuDRfkNiFsyWbxF6MNew"
+  }
+}

@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Prayer Request | Good News Church, Spirit Embassy Mumbai</title>
+    <meta
+      name="description"
+      content="Share a prayer request with Good News Church, Spirit Embassy Mumbai."
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="prayer">
+    <div class="loader">
+      <div class="loader-inner">
+        <div class="loader-mark">GN</div>
+        <p>Good News Church, Mumbai</p>
+      </div>
+    </div>
+    <div data-site-header></div>
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <span class="eyebrow">A listening church</span>
+          <h1>Prayer request</h1>
+          <p>
+            A quiet place to share what is on your heart. Your request is
+            treated with care.
+          </p>
+        </div>
+      </section>
+      <section class="section section--white">
+        <div class="container form-layout">
+          <div class="form-intro">
+            <span class="eyebrow">We are here</span>
+            <h2>You do not have to carry it alone.</h2>
+            <p>
+              Complete the form and our team will receive your request. Fields
+              marked with * are required.
+            </p>
+          </div>
+          <form class="form" data-form-type="prayer" novalidate>
+            <div class="form-grid">
+              <div class="field">
+                <label for="prayer-name">Full name *</label
+                ><input
+                  id="prayer-name"
+                  name="fullName"
+                  required
+                  autocomplete="name"
+                /><small></small>
+              </div>
+              <div class="field">
+                <label for="prayer-email">Email *</label
+                ><input
+                  id="prayer-email"
+                  type="email"
+                  name="email"
+                  required
+                  autocomplete="email"
+                /><small></small>
+              </div>
+              <div class="field">
+                <label for="prayer-phone">Phone number</label
+                ><input
+                  id="prayer-phone"
+                  name="phone"
+                  autocomplete="tel"
+                /><small></small>
+              </div>
+              <div class="field field--full">
+                <label for="prayer-request">Prayer request *</label
+                ><textarea
+                  id="prayer-request"
+                  name="prayerRequest"
+                  required
+                ></textarea
+                ><small></small>
+              </div>
+              <div class="field field--full">
+                <label for="prayer-additional"
+                  >Additional information <span>(optional)</span></label
+                ><textarea
+                  id="prayer-additional"
+                  name="additionalInformation"
+                ></textarea
+                ><small></small>
+              </div>
+            </div>
+            <button class="button button--dark" type="submit">
+              Submit prayer request <span>→</span>
+            </button>
+            <p
+              data-form-status
+              role="status"
+              style="margin-top: 16px; color: #a83e32; font-size: 0.82rem"
+            ></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <div data-site-footer></div>
+    <div class="modal" data-modal aria-hidden="true">
+      <div
+        class="modal-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+      >
+        <button class="modal-close" data-modal-close aria-label="Close">
+          ×</button
+        ><span class="eyebrow">Received with care</span>
+        <h2 id="modal-title" style="margin-top: 22px; font-size: 2.3rem">
+          Thank you.
+        </h2>
+        <p>
+          Your prayer request has been received. You can also join the Spirit
+          Embassy Mumbai WhatsApp Community.
+        </p>
+        <a
+          class="button button--accent"
+          href="[MUMBAI_WHATSAPP_COMMUNITY_URL]"
+          target="_blank"
+          rel="noopener"
+          >Join our WhatsApp Community ↗</a
+        >
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/forms.js"></script>
+  </body>
+</html>
