@@ -1,0 +1,47 @@
+[
+	{
+		"id": "impact-01",
+		"image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=900&q=85",
+		"imageAlt": "People connecting at a community gathering",
+		"category": "DEMO STORY · TRANSFORMATION",
+		"title": "A Life Transformed",
+		"description": "Replace this placeholder with a verified story from a past church event.",
+		"url": "/impact/impact-01"
+	},
+	{
+		"id": "impact-02",
+		"image": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?auto=format&fit=crop&w=900&q=85",
+		"imageAlt": "Volunteers working together in service",
+		"category": "DEMO STORY · COMMUNITY",
+		"title": "Reaching Our Community",
+		"description": "Replace this placeholder with a verified community impact story.",
+		"url": "/impact/impact-02"
+	},
+	{
+		"id": "impact-03",
+		"image": "https://images.unsplash.com/photo-1507692049790-de58290a4334?auto=format&fit=crop&w=900&q=85",
+		"imageAlt": "A worship gathering",
+		"category": "DEMO STORY · HOPE",
+		"title": "Hope in Action",
+		"description": "Replace this placeholder with a verified story from a past service.",
+		"url": "/impact/impact-03"
+	},
+	{
+		"id": "impact-04",
+		"image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=85",
+		"imageAlt": "Friends gathered together",
+		"category": "DEMO STORY · FELLOWSHIP",
+		"title": "Lives Changed",
+		"description": "Replace this placeholder with a verified testimony or event story.",
+		"url": "/impact/impact-04"
+	},
+	{
+		"id": "impact-05",
+		"image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=900&q=85",
+		"imageAlt": "A community gathered for an event",
+		"category": "DEMO STORY · SERVICE",
+		"title": "Good News in Action",
+		"description": "Replace this placeholder with a verified story from a church gathering.",
+		"url": "/impact/impact-05"
+	}
+]
